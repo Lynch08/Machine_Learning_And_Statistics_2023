@@ -1,0 +1,49 @@
+# Jupyter Notebook specific files
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+.ipynb_checkpoints/*
+.ipynb_checkpoints/**/*
+
+# Python virtual environment (if used)
+venv/
+env/
+*.pyc
+__pycache__/
+
+# Jupyter configuration file
+.jupyter/
+
+# Jupyter-generated HTML and PDF output
+*.html
+*.pdf
+
+# Jupyter notebook checkpoints (deprecated, use .ipynb_checkpoints)
+.ipynb_checkpoints/
+
+# Text-based notebooks
+*.nbformat.json
+*.nbconvert.json
+
+# Ignore any environment-specific files
+.DS_Store
+.idea/
+.vscode/
+__MACOSX/
+*.swp
+*.swo
+
+# Ignore notebooks' execution logs and metadata
+*_log.txt
+*.ipynb-meta
+
+# Ignore autosaved Jupyter files
+*.autosave
+*.backup
+*.bak
+
+# Ignore system-specific temporary files
+*~
+
+# Ignore files with sensitive information (config files, tokens, etc.)
+config.ini
+secrets.json
