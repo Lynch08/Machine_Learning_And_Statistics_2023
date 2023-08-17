@@ -44,6 +44,15 @@ __MACOSX/
 # Ignore system-specific temporary files
 *~
 
+# Ignore Windows thumbnail cache files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Ignore Windows folder configuration files
+Desktop.ini
+$RECYCLE.BIN/
+
 # Ignore files with sensitive information (config files, tokens, etc.)
 config.ini
 secrets.json
