@@ -41,7 +41,7 @@ Your web browser will open, displaying the Jupyter Notebook dashboard. Click on 
 
 ## Notebook Descriptions
 #### ttest.ipynb
-This notebook demonstrates how to perform a t-test for comparing two sample means. It includes explanations of the t-test concept, assumptions, and step-by-step implementation using Python and libraries such as NumPy and SciPy.
+This notebook demonstrates how to perform a t-test for comparing two sample means. It includes explanations of the t-test concept, assumptions, and step-by-step implementation using random generarated data from Python and libraries such as NumPy and SciPy. I alson demonstrate how to investigate a sample of data from patients, of different ages and sex, of their blood pressure before and after they had recieved treatment using the ttest.
 
 #### regression.ipynb
 In this notebook, you'll learn about linear regression analysis. It covers the basics of linear regression, how to fit a linear regression model to data, and how to interpret the results. Python libraries such as NumPy, pandas, and scikit-learn are used for this analysis.
@@ -49,9 +49,9 @@ In this notebook, you'll learn about linear regression analysis. It covers the b
 ## References
 Here are some resources that provide further information on the topics covered in these notebooks:
 
-Jupyter Documentation
-NumPy Documentation
-SciPy Documentation
-pandas Documentation
-scikit-learn Documentation
+[Jupyter Documentation](https://docs.jupyter.org/en/latest/)
+[NumPy Documentation](https://numpy.org/doc/)
+[SciPy Documentation](https://docs.scipy.org/doc//scipy/index.html)
+[pandas Documentation](https://pandas.pydata.org/docs/)
+[scikit-learn Documentation](https://scikit-learn.org/stable/index.html) 
 Feel free to explore, modify, and use these notebooks as a starting point for your own data analysis projects!
