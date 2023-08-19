@@ -1,4 +1,4 @@
-# Jupyter Notebook Examples: ttest.ipynb and regression.ipynb
+# Jupyter Notebooks: ttest.ipynb and regression.ipynb
 
 This repository contains two Jupyter Notebook examples that demonstrate statistical analysis using t-tests and linear regression.
 
@@ -49,9 +49,9 @@ In this notebook, you'll learn about linear regression analysis. It covers the b
 ## References
 Here are some resources that provide further information on the topics covered in these notebooks:
 
-[Jupyter Documentation](https://docs.jupyter.org/en/latest/)
-[NumPy Documentation](https://numpy.org/doc/)
-[SciPy Documentation](https://docs.scipy.org/doc//scipy/index.html)
-[pandas Documentation](https://pandas.pydata.org/docs/)
-[scikit-learn Documentation](https://scikit-learn.org/stable/index.html) 
+[Jupyter Documentation](https://docs.jupyter.org/en/latest/)  
+[NumPy Documentation](https://numpy.org/doc/)  
+[SciPy Documentation](https://docs.scipy.org/doc//scipy/index.html)  
+[pandas Documentation](https://pandas.pydata.org/docs/)  
+[scikit-learn Documentation](https://scikit-learn.org/stable/index.html)   
 Feel free to explore, modify, and use these notebooks as a starting point for your own data analysis projects!
