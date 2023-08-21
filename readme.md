@@ -25,7 +25,17 @@ To run these Jupyter Notebooks, you'll need to have Jupyter installed on your sy
    ```bash
    pip install jupyter
    ```
-
+3. if you want to run on a virtual environment  
+     - Create and activate a virtual environment  
+     ```
+     python -m venv venv
+    source venv/bin/activate   # On Windows: venv\Scripts\activate  
+    ```
+    - Install the project dependencies from requirements.txt  
+    ```
+    pip install -r requirements.txt  
+    ```
+    
 ## Running the Notebooks
 Once you have Jupyter installed, follow these steps to run the notebooks:  
 
@@ -46,6 +56,28 @@ This notebook demonstrates how to perform a t-test for comparing two sample mean
 #### regression.ipynb
 In this notebook, you'll learn about linear regression analysis. It covers the basics of linear regression, how to fit a linear regression model to data, and how to interpret the results. Python libraries such as NumPy, pandas, and scikit-learn are used for this analysis.
 
+# Other Files in the Repo
+
+#### requirements.txt
+
+The requirements.txt file is used to specify the external libraries and dependencies that the Python project requires to run properly. This file is often used in conjunction with package management tools like pip to ensure that the correct versions of these dependencies are installed. Each line in the requirements.txt file typically follows the format *package-name==version*, where *package-name* is the name of the Python package or library and *version* is the specific version used when creating this notebook.
+
+The requirements.txt file lists the required packages and their specified versions. For instance, it states that the project requires:
+
+Matplotlib version 3.5.1  
+NumPy version 1.23.0  
+Pandas version 1.4.2  
+SciPy version 1.7.3  
+Seaborn version 0.11.2  
+Statsmodels version 0.13.2  
+Scikit-learn version 1.0.2  
+IPython version 7.27.0  
+IPywidgets version 7.6.5  
+    
+#### .gitignore
+
+The .gitignore file is used to specify files and directories that should be ignored by version control systems like Git. When developing a project, there are often files and directories that are generated during development or contain sensitive information that you don't want to include in your version control repository. Adding them to the .gitignore file ensures that they are not tracked or shared through the repository.
+ 
 ## References
 Here are some resources that provide further information on the topics covered in these notebooks:
 
