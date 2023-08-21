@@ -22,7 +22,7 @@ To run these Jupyter Notebooks, you'll need to have Jupyter installed on your sy
 
 2. Install Jupyter using pip, a package installer for Python. Open your terminal (or command prompt) and run the following command:
    
-   ```bash
+   ```
    pip install jupyter
    ```
 3. if you want to run on a virtual environment  
@@ -52,11 +52,33 @@ Your web browser will open, displaying the Jupyter Notebook dashboard. Click on 
 ## Notebook Descriptions
 #### ttest.ipynb
 This notebook demonstrates how to perform a t-test for comparing two sample means. It includes explanations of the t-test concept, assumptions, and step-by-step implementation using random generarated data from Python and libraries such as NumPy and SciPy. I alson demonstrate how to investigate a sample of data from patients, of different ages and sex, of their blood pressure before and after they had recieved treatment using the ttest.
+The notebook is structured into three parts:
+
+**Part 1:** Overview of Data and Statistical Problem Solving  
+It starts with an introduction to statistical problem-solving and the importance of understanding data. This section sets the foundation for the subsequent parts by explaining the significance of statistical methods in real-world scenarios.  
+
+**Part 2:** Performing Paired t-test with Simulated Data  
+Here, we walk through the process of performing a paired t-test using randomly generated data from the NumPy library. This hands-on demonstration illustrates the steps involved in applying the t-test and interpreting its results.
+
+**Part 3:** Applying Paired t-test to Online Data
+In the final part, we take the concepts learned earlier and apply them to real online data. By utilizing the paired t-test, we showcase how to analyze and draw meaningful insights from actual datasets.
+
+The intention of this notebook is to provide practical insights into statistical methods, focusing on their applications and significance. While we touch on the mathematical foundations, the emphasis is on understanding when and why specific methods are used, rather than delving deeply into mathematical intricacies.
 
 #### regression.ipynb
-In this notebook, you'll learn about linear regression analysis. It covers the basics of linear regression, how to fit a linear regression model to data, and how to interpret the results. Python libraries such as NumPy, pandas, and scikit-learn are used for this analysis.
+In this notebook, you'll learn about linear regression analysis. It covers the basics of linear regression, how to fit a linear regression model to data, and how to interpret the results. Python libraries such as NumPy, pandas, scipy and scikit-learn are used for this analysis.  
+The notebook is structured as follows:  
 
-# Other Files in the Repo
+**Section 1:** Introduction to Linear Regression  
+We kick off by introducing the fundamental concepts of Linear Regression. This statistical method serves as the cornerstone for predicting target variables based on predictor variables. This section lays the groundwork for the subsequent explorations.
+
+**Section 2:** Predicting Broad Jump Length in the NFL Combine  
+In this practical case study, we leverage Linear Regression to analyze weight and broad jump length data from the NFL Combine in 2020. By utilizing Python libraries like Pandas, Matplotlib, Seaborn, and Scipy, we investigate the predictive relationship between weight and broad jump performance.
+
+**Section 3:** Predicting NFL Touchdowns  
+Expanding our scope, we apply Linear Regression to predict a more complex outcome: NFL touchdowns. Using Scikit-Learn, a powerful machine learning library, we process and analyze data related to NFL touchdowns. By training a Linear Regression model, we aim to predict the number of touchdowns a player, specifically quarterbacks, will score based on various factors.
+
+## Other Files in the Repo
 
 #### requirements.txt
 
