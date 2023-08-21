@@ -99,13 +99,23 @@ IPywidgets version 7.6.5
 #### .gitignore
 
 The .gitignore file is used to specify files and directories that should be ignored by version control systems like Git. When developing a project, there are often files and directories that are generated during development or contain sensitive information that you don't want to include in your version control repository. Adding them to the .gitignore file ensures that they are not tracked or shared through the repository.
- 
+
+#### Image folder
+This folder contains image files that are used within the project.  
+If these files are altered or their location changed it may effect the running of the notebook.  
+
+#### Data Folder
+Contains various data files that are used within the project.  
+If these files are altered or their location changed it may effect the running of the notebook.  
+
 ## References
-Here are some resources that provide further information on the topics covered in these notebooks:
+Here are some resources that provide further information on the topics covered in these notebooks:  
 
 [Jupyter Documentation](https://docs.jupyter.org/en/latest/)  
 [NumPy Documentation](https://numpy.org/doc/)  
 [SciPy Documentation](https://docs.scipy.org/doc//scipy/index.html)  
 [pandas Documentation](https://pandas.pydata.org/docs/)  
 [scikit-learn Documentation](https://scikit-learn.org/stable/index.html)   
+[Matplotlib Documnention](https://matplotlib.org/stable/index.html)
+[Seaborn Documentation](https://seaborn.pydata.org/)
 Feel free to explore, modify, and use these notebooks as a starting point for your own data analysis projects!
