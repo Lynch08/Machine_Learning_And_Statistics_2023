@@ -100,7 +100,7 @@ IPywidgets version 7.6.5
 
 The .gitignore file is used to specify files and directories that should be ignored by version control systems like Git. When developing a project, there are often files and directories that are generated during development or contain sensitive information that you don't want to include in your version control repository. Adding them to the .gitignore file ensures that they are not tracked or shared through the repository.
 
-#### Image folder
+#### Images folder
 This folder contains image files that are used within the project.  
 If these files are altered or their location changed it may effect the running of the notebook.  
 
